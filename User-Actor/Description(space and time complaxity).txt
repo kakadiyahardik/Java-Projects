@@ -1,0 +1,38 @@
+
+
+Space complexity of this problem is:-
+
+....................................................
+	O(N*M) where N= number of line and M = max number of artist is one line 	   from all line(max number of artist in one line can't increased 			50)
+
+	gretterThan Arraylis take space O(A*M)  where A=Number of artist and m= max(count user for all the artist)
+
+	So
+
+	 O(N*M) + O(A*M) < 2(N*M) = O(N*M)
+
+
+.....................................................
+
+Time complexity
+..........................................
+
+	Time complexity is O(A*A*M) that is describe in Calculation class as comment
+	where
+	
+	A = Number of artist
+	M = max(size of list of user of iTH artist , size of list of user of 		jTH artist) or  50(Limit)
+
+	-> i was also describe time complexity in problem
+
+	AND 
+	....
+
+	for reading file take O(N*M) time where N = number of line and M = max 		number of artist is one line 	   from all line 
+
+	So
+
+	O(A*A*M)  +  O(N*M)
+
+	so we can say time complexity is = O(A*A*m) with some constant
+.......................................................
