@@ -1,2 +1,2 @@
 # Java-Projects
-Java small college project
+Java small college projects
